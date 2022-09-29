@@ -1,0 +1,132 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: darkred;
+}
+
+h3, 
+p,
+li {
+    color: rgb(0, 0, 0);
+}
+
+img {
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+main {
+    margin: 0 20%;
+}
+
+nav {
+    background-color: beige;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: green;
+    margin-right: 25px;
+}
+
+nav a:hover {
+    color: darkred;
+}
+
+#banner {
+    width: 60%;
+    height: auto;
+    background-color: white;
+    
+}
+
+#aboutImg {
+    width: 90%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+#banner img {
+    width: 60%;
+    height: auto;
+}
+
+.service {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid green;
+    border-radius: 5px;
+    color: darkred;
+    font-size: 2em;
+    padding: 20px;
+    margin: 10px;
+    /* padds */
+}
+
+table {
+    /* border-spacing: 10px; */
+    border: 3px solid black;
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 30px;
+}
+  
+td,
+th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px; 
+}
+
+.header {
+    /* padding-right: 80%; */
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.header {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#footer {
+    background-color: #F3F3F3;
+    /* padding-top: 10px;
+    padding-bottom: 22px; */
+    height: 32px; /* height + top/bottom paddding + top/bottom border must add up to footer height */
+    padding: 8px;
+    padding-bottom: 100px;
+    padding-right: 40px;
+}
+
+#icons {
+    word-spacing: 15px;
+    font-size: larger;
+    /* color: black;
+    color: rgb(241, 239, 239); */
+    text-shadow: 1.2px 1.2px 1.2px rgb(90, 90, 90);
+    font-size: 1.5em;
+}
